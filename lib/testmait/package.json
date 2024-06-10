@@ -1,0 +1,22 @@
+{
+  "name": "testmait",
+  "version": "1.0.0",
+  "description": "TestmAIt Gen AI based test automation tool",
+  "files": [
+    "bin",
+    "docs",
+    "lib",
+    "translations",
+    "typings/**/*.d.ts"
+  ],
+  "main": "lib/index.js",
+  "typings": "typings/index.d.ts",
+  "bin": {
+    "testmait": "./bin/testmait.js"
+  },
+  "engines": {
+    "node": ">=16.0",
+    "npm": ">=5.6.0"
+  },
+  "es6": true
+}

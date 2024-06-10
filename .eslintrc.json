@@ -1,0 +1,17 @@
+{
+  "env": {
+    // ES2020 sets the parser option to use ECMAScript version 11 (year 2020),
+    // which is supported by the latest NodeJS 14, see https://node.green/ for details
+    "es2020": true,
+    "node": true
+  },
+
+
+  "rules": {
+    "codeceptjs/no-exclusive-tests": "off",
+    "codeceptjs/no-pause-in-scenario": "off"
+  },
+  //"extends": ["eslint:recommended", "plugin:codeceptjs/recommended", "prettier"],
+  "parser": "babel-eslint",
+  "root": true
+}

@@ -1,0 +1,43 @@
+{
+  // Restrict feature file names to a commmon style
+  "file-name": ["on", { "style": "snake_case" }],
+  // Allows the user to specify indentation rules, see https://github.com/vsiakka/gherkin-lint#indentation
+  "indentation": "on",
+  // Requires that Given, When and Then appear in logical sequence
+  // Ideally this should be on, but too many scenarios use keywords out of order
+  "keywords-in-logical-order": "off",
+  // Disallows/enforces new line at EOF
+  "new-line-at-eof": ["on", "yes"],
+  // Disallows duplicate Scenario names
+  "no-dupe-scenario-names": ["on", "in-feature"],
+  // Disallows duplicate tags on the same Feature or Scenario
+  "no-duplicate-tags": "on",
+  // Disallows features with backgrounds without steps
+  "no-empty-background": "on",
+  // Disallows empty feature files
+  "no-empty-file": "on",
+  // Disallows files with no scenarios
+  "no-files-without-scenarios": "on",
+  // Disallows tags present on every Scenario in a Feature, rather than on the Feature itself
+  "no-homogenous-tags": "on",
+  // Disallows multiple empty lines
+  "no-multiple-empty-lines": "on",
+  // Disallows partially commented tag lines
+  "no-partially-commented-tag-lines": "on",
+  // Disallows scenario outlines without examples
+  "no-scenario-outlines-without-examples": "on",
+  // Disallows tags present on a Feature and a Scenario in that Feature
+  "no-superfluous-tags": "on",
+  // Disallows trailing spaces
+  "no-trailing-spaces": "on",
+  // Disallows empty Feature name
+  "no-unnamed-features": "on",
+  // Disallows empty Scenario name
+  "no-unnamed-scenarios": "on",
+  // Disallows unused variables in scenario outlines
+  "no-unused-variables": "on",
+  // Tags on the same line must be separated by a single space
+  "one-space-between-tags": "on",
+  // Disallows repeated step names requiring use of And instead
+  "use-and": "off"
+}

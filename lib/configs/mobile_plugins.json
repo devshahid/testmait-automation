@@ -1,0 +1,22 @@
+{
+  "android": {
+    "dialerapp": {
+      "package": "com.android.dialer",
+      "activity": "com.android.dialer.DialtactsActivity"
+    },
+    "messageapp": {
+      "package": "com.android.mms",
+      "activity": "com.android.mms.ui.ConversationList"
+    }
+  },
+  "sim": {
+    "dialerapp": {
+      "package": "com.google.android.dialer",
+      "activity": "com.google.android.dialer.extensions.GoogleDialtactsActivity"
+    },
+    "messageapp": {
+      "package": "com.google.android.apps.messaging",
+      "activity": "com.google.android.apps.messaging.ui.ConversationListActivity"
+    }
+  }
+}

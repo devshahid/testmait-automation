@@ -1,0 +1,45 @@
+{
+  // Unit of indents, 1 means 2 spaces with editor.tabSize set to 2
+  "cucumberautocomplete.formatConfOverride": {
+    "Feature:": 0,
+    "Scenario:": 0,
+    "Background:": 0,
+    "Scenario Outline:": 0,
+    "Examples:": 0,
+    "Given": 1,
+    "When": 1,
+    "Then": 1,
+    "And": 1,
+    "But": 1,
+    "\\*": 1,
+    "\\|": 1
+  },
+  "cucumberautocomplete.onTypeFormat": true,
+  "cucumberautocomplete.smartSnippets": true,
+  "cucumberautocomplete.steps": ["./lib/steps/**/*.js"],
+  "cucumberautocomplete.stepsInvariants": true,
+  "cucumberautocomplete.syncfeatures": "./features/**/*.feature",
+  "cucumberautocomplete.strictGherkinCompletion": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.detectIndentation": false,
+  "editor.formatOnSave": true,
+  "editor.renderWhitespace": "trailing",
+  "editor.tabSize": 2,
+  "files.eol": "\n",
+  "files.associations": {
+    "**/.gherkin-lintrc": "jsonc",
+    "**/.env*": "dotenv"
+  },
+  "[feature]": {
+    "editor.defaultFormatter": "alexkrechik.cucumberautocomplete",
+    "editor.quickSuggestions": {
+      "strings": true
+    }
+  },
+  "[javascript]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit"
+    }
+  },
+  "liveServer.settings.port": 5503
+}

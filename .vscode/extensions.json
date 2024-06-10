@@ -1,0 +1,12 @@
+{
+  "recommendations": [
+    "alexkrechik.cucumberautocomplete",
+    "codezombiech.gitignore",
+    "DavidAnson.vscode-markdownlint",
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "mikestead.dotenv",
+    "redhat.vscode-yaml",
+    "ritwickdey.LiveServer"
+  ]
+}

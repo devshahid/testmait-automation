@@ -1,0 +1,16 @@
+{
+  "carRoot": "//div[contains(@id, 'gallery-0')]/div[contains(@class,'wikia-gallery-item')]",
+  "carNameHeading": "//aside//h2[contains(@class,'pi-item')]",
+  "carMainDetailsText": "//section//div[contains(@class,'pi-item')]//div",
+  "availableVersionHeading": "//h2[contains(span/text(), 'Versions')]",
+  "carMainImage": "//img[@class='pi-image-thumbnail']",
+
+  "AllTableHeadersOld": "//div[@class='table-wide']/preceding-sibling::*[2]//span[@class='mw-headline']",
+  "AllTableHeaders": "//div[@class='table-wide']/preceding-sibling::*[position() <= 10 and contains(., 'Version') and not(contains(., 'Gallery'))]",
+  "AllTableHeadersDifferentLocator": "//table/preceding-sibling::*[position() <= 10 and contains(., 'Version') and not(contains(., 'Gallery'))]",
+
+  "TableSpecificHeader": "//div[@class='table-wide'][REPLACE_ID]/preceding-sibling::h2",
+  "tableRowsData": "//div[@class='table-wide'][REPLACE_ID]//table//tbody//tr",
+  "allLastRowData": "//div[@class='table-wide'][REPLACE_ID]//table//tbody//tr//td[last()]//a",
+  "lastRowData": "//div[@class='table-wide'][REPLACE_ID]//table//tbody//tr[REPLACE_ROW_ID]//td[last()]//a"
+}

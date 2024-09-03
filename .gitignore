@@ -127,3 +127,6 @@ projcet/output/*
 
 #generated allure report
 generated/*
+
+Cars data
+scrapped-data/**/*.json

@@ -8,6 +8,7 @@ type CreateTopOrgPage = typeof import('./lib/pages/g2/createtoporgpage.js');
 type LeftMenuPage = typeof import('./lib/pages/g2/leftmenupage.js');
 type GenericMethods = typeof import('./lib/pages/g2/genericMethods.js');
 type AdminPage = typeof import('./lib/pages/g2/adminpage.js');
+type HotWheelPage = typeof import('./lib/pages/hotwheels/web.page.js');
 type Assert = typeof import('./lib/components/assert.js');
 type ButtonLink = typeof import('./lib/components/button.js');
 type CheckBox = typeof import('./lib/components/checkbox.js');
@@ -46,6 +47,7 @@ declare namespace TestMaiT {
     LeftMenuPage: LeftMenuPage;
     GenericMethods: GenericMethods;
     AdminPage: AdminPage;
+    HotWheelPage: HotWheelPage;
     Assert: Assert;
     ButtonLink: ButtonLink;
     CheckBox: CheckBox;

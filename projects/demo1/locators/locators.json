@@ -1,5 +1,5 @@
 {
-  "carRoot": "//div[contains(@id, 'gallery-0')]/div[contains(@class,'wikia-gallery-item')]",
+  "carRoot": "(//div[contains(@id, 'gallery-REPLACE_ID')]/div[contains(@class,'wikia-gallery-item')])[REPLACE_SUB_ID]/div[@class='lightbox-caption']",
   "carNameHeading": "//aside//h2[contains(@class,'pi-item')]",
   "carMainDetailsText": "//section//div[contains(@class,'pi-item')]//div",
   "availableVersionHeading": "//h2[contains(span/text(), 'Versions')]",
@@ -9,8 +9,11 @@
   "AllTableHeaders": "(//div[@class='table-wide']/preceding-sibling::*[position() <= 10 and contains(., 'Version') and not(contains(., 'Gallery'))])[REPLACE_ID]",
   "AllTableHeadersDifferentLocator": "//table/preceding-sibling::*[position() <= 10 and contains(., 'Version') and not(contains(., 'Gallery'))]",
 
+  "tableHeadersList": "//div[@class='toc']/ul//span[@class='toctext']",
+  "AllCategoryHeadings": "//span[@class='mw-headline']",
+
   "TableSpecificHeader": "//table[@class='table-wide'][REPLACE_ID]/preceding-sibling::h2",
-  "tableRowsData": "//div[@class='table-wide'][REPLACE_ID]//table//tbody//tr",
+  "tableRowsData": "(//table)[REPLACE_ID]//tbody//tr",
   "allLastRowData": "//div[@class='table-wide'][REPLACE_ID]//table//tbody//tr//td[last()]//a",
   "lastRowData": "//div[@class='table-wide'][REPLACE_ID]//table//tbody//tr[REPLACE_ROW_ID]//td[last()]//a"
 }

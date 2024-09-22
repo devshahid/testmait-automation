@@ -1,13 +1,15 @@
 {
   "carRoot": "(//div[contains(@id, 'gallery-REPLACE_ID')]/div[contains(@class,'wikia-gallery-item')])[REPLACE_SUB_ID]/div[@class='lightbox-caption']",
+  "carList": "(//table)[1]//tbody//tr[REPLACE_SUB_ID]//td[2]",
   "carNameHeading": "//aside//h2[contains(@class,'pi-item')]",
   "carMainDetailsText": "//section//div[contains(@class,'pi-item')]//div",
   "availableVersionHeading": "//h2[contains(span/text(), 'Versions')]",
   "carMainImage": "//img[@class='pi-image-thumbnail']",
 
   "AllTableHeadersOld": "//div[@class='table-wide']/preceding-sibling::*[2]//span[@class='mw-headline']",
-  "AllTableHeaders": "(//div[@class='table-wide']/preceding-sibling::*[position() <= 10 and contains(., 'Version') and not(contains(., 'Gallery'))])[REPLACE_ID]",
-  "AllTableHeadersDifferentLocator": "//table/preceding-sibling::*[position() <= 10 and contains(., 'Version') and not(contains(., 'Gallery'))]",
+  "AllTableHeaders": "(//div[@class='table-wide']/preceding-sibling::*[position() <= 10 and not(contains(., 'Gallery'))])[REPLACE_ID]",
+  "AllTableHeadersDifferentLocator": "//table/preceding-sibling::*[position() <= 10 and not(contains(., 'Gallery'))]",
+  "AllHeadersPostionWise": "//div[@class='table-wide']/preceding-sibling::h2",
 
   "tableHeadersList": "//div[@class='toc']/ul//span[@class='toctext']",
   "AllCategoryHeadings": "//span[@class='mw-headline']",

@@ -1,6 +1,6 @@
 {
   "carRoot": "(//div[contains(@id, 'gallery-REPLACE_ID')]/div[contains(@class,'wikia-gallery-item')])[REPLACE_SUB_ID]/div[@class='lightbox-caption']",
-  "carList": "(//table)[1]//tbody//tr[REPLACE_SUB_ID]//td[2]",
+  "carList": "(//table)[REPLACE_ID]//tbody//tr[REPLACE_SUB_ID]//td[1]",
   "carNameHeading": "//aside//h2[contains(@class,'pi-item')]",
   "carMainDetailsText": "//section//div[contains(@class,'pi-item')]//div",
   "availableVersionHeading": "//h2[contains(span/text(), 'Versions')]",
@@ -15,7 +15,9 @@
   "AllCategoryHeadings": "//span[@class='mw-headline']",
 
   "TableSpecificHeader": "//table[@class='table-wide'][REPLACE_ID]/preceding-sibling::h2",
+  "tableHeadersFields": "(//table)[REPLACE_ID]//thead//tr//th",
   "tableRowsData": "(//table)[REPLACE_ID]//tbody//tr",
   "allLastRowData": "//div[@class='table-wide'][REPLACE_ID]//table//tbody//tr//td[last()]//a",
+  "allLastRowData2": "(//table)[REPLACE_ID]//tbody//tr//td[last()]//a",
   "lastRowData": "//div[@class='table-wide'][REPLACE_ID]//table//tbody//tr[REPLACE_ROW_ID]//td[last()]//a"
 }

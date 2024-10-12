@@ -130,3 +130,4 @@ generated/*
 
 Cars data
 scrapped-data/**/*.json
+dct-images/

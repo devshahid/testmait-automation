@@ -1,1 +1,1 @@
-This is readme file for ZeroQE AI based test automation tool
+This is readme file for test automation tool

@@ -56,6 +56,9 @@ exports.config = {
     ],
   },
   plugins: {
+    tryTo: {
+      enabled: true,
+    },
     // Used for reporting
     allure: {
       outputDir: plugins.allure.resultsDir,

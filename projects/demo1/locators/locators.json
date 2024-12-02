@@ -1,6 +1,7 @@
 {
   "carRoot": "(//div[contains(@id, 'gallery-REPLACE_ID')]/div[contains(@class,'wikia-gallery-item')])[REPLACE_SUB_ID]/div[@class='lightbox-caption']",
   "carList": "(//table)[REPLACE_ID]//tbody//tr[REPLACE_SUB_ID]//td[1]",
+  "specialCarList": "(//table)[REPLACE_ID]//tbody//tr[position() > 1]//td[3]",
   "secondCarTableTitle": "(//table)[REPLACE_ID]//tbody//tr[REPLACE_SUB_ID]//td[2]",
   "updatedCarList": "(//table)[REPLACE_ID]//tbody//tr[REPLACE_SUB_ID]//td[3]",
   "carNameHeading": "//aside//h2[contains(@class,'pi-item')]",

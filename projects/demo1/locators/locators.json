@@ -22,5 +22,6 @@
   "tableRowsData": "(//table)[REPLACE_ID]//tbody//tr",
   "allLastRowData": "//div[@class='table-wide'][REPLACE_ID]//table//tbody//tr//td[last()]//a",
   "allLastRowData2": "(//table)[REPLACE_ID]//tbody//tr//td[last()]//a",
-  "lastRowData": "//div[@class='table-wide'][REPLACE_ID]//table//tbody//tr[REPLACE_ROW_ID]//td[last()]//a"
+  "lastRowData": "//div[@class='table-wide'][REPLACE_ID]//table//tbody//tr[REPLACE_ROW_ID]//td[last()]//a",
+  "newCategoryList": "(//div[@class='toc']//ul)[1]"
 }

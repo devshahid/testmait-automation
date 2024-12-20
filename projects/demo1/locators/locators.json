@@ -8,7 +8,7 @@
   "carMainDetailsText": "//section//div[contains(@class,'pi-item')]//div",
   "availableVersionHeading": "//h2[contains(span/text(), 'Versions')]",
   "carMainImage": "//img[@class='pi-image-thumbnail']",
-
+  "subcategories": "(//div[@class='lightbox-caption']//a)",
   "AllTableHeadersOld": "//div[@class='table-wide']/preceding-sibling::*[2]//span[@class='mw-headline']",
   "AllTableHeaders": "(//div[@class='table-wide']/preceding-sibling::*[position() <= 10 and not(contains(., 'Gallery'))])[REPLACE_ID]",
   "AllTableHeadersDifferentLocator": "//table/preceding-sibling::*[position() <= 10 and not(contains(., 'Gallery'))]",

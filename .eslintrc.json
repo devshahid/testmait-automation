@@ -6,10 +6,10 @@
     "node": true
   },
 
-
   "rules": {
     "codeceptjs/no-exclusive-tests": "off",
-    "codeceptjs/no-pause-in-scenario": "off"
+    "codeceptjs/no-pause-in-scenario": "off",
+    "no-undef": "error"
   },
   //"extends": ["eslint:recommended", "plugin:codeceptjs/recommended", "prettier"],
   "parser": "babel-eslint",

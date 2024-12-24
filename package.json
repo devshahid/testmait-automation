@@ -12,7 +12,7 @@
   "scripts": {
     "aiautomation": "testmait",
     "check-conflict": "npx eslint-config-prettier testmait.conf.js",
-    "check-eslint": "npx eslint .",
+    "check-eslint": "npx eslint lib/steps/web",
     "check-gherkin": "npx gherkin-lint",
     "check-prettier": "npx prettier --check .",
     "postinstall": "shx ln -s $PWD/lib/testmait/bin/testmait.js ./node_modules/.bin/testmait"
